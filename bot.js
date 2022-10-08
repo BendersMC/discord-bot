@@ -108,7 +108,7 @@ client.on('interactionCreate', interaction => {
 });
 
 client.on('messageCreate', (message) => {
-	if (message.content.includes('why is ur name lego')) {
+	if (message.content.includes('why is ur name lego?')) {
 		message.channel.send({
 			embeds: [ new EmbedBuilder().setColor(0xF34213).setTitle('Well Long Story Short').setDescription('i was young and didnt have money so me and my brother created a new minecraft acount together for him to use as an alt. but i didnt know a name and my brothers ign was LEGO2you (cos he likes legos (a lot)) so then the nme became LEGO4you. and i just didnt thought when i was creating a discord that it should be another name so it also became LEGO4you. so now its just LEGO4you everywhere cus changing it is way to much effort! ') ],
 		});
